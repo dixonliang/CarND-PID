@@ -19,4 +19,4 @@ double ki = 0.0001;
 double kd = 3.0;
 pid.Init(kp, ki, kd);
 ```
-In a future implementation, the parameters could be better tuned using something like Twiddle as well as behavior could be adjusted to lower the throttle when the error approaches a certain threshold. 
+In a future implementation, the parameters could be better tuned using something like Twiddle as well as behavior could be adjusted to lower the throttle when the error approaches a certain threshold. Currently, it does come close to driving off the road on sharp turns, but manages to stay on the track throughout the entire simulation. 
